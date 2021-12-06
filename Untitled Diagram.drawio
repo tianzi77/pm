@@ -1,1 +1,95 @@
-<mxfile host="app.diagrams.net" modified="2021-07-09T06:08:15.253Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="1pOQftx5o-AOO3rNSzV9" version="14.8.5" type="github"><diagram id="QSRsxWXxhsc_a-w8U61n" name="Page-1">5VXLTsMwEPyaHJGamCbptaVQIZAQFVCOVr1NLDneynFIytfjYjsPSqX2gipxij2769mdcZKAzIrmTtFt/ogMRBCNWBOQmyCKwhFJzWOP7Cwyvk4skCnOXFIHLPkn+EqHVpxBOUjUiELz7RBco5Sw1gOMKoX1MG2DYsi6pRkcAMs1FYfoG2c6t2gaJR2+AJ7lnjmMJzZSUJ/sJilzyrDuQWQekJlC1HZVNDMQe/G8Lrbu9ki0bUyB1KcUSMLfcfWiVhvMx/j6lKb3i6vYzfFBReUmfqASXMd652Uoa16IfYBMS02VdkYZSjJ1J4DS0BztLWwnNlcFsACtdibFF4ydSO6WhLHb153moRcy7+lNPEidz1l7dkv3bO4FlZkZ5Sy++Be6n2xUaFCSaphiJVnZ198sepN20Lcr5ziUXoRDUfK3Dp3CdykOTS7CITL5h++Q2XZfUJve/YfI/As=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-06T07:09:17.924Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="XmZcyjsuXQhtcKFQT66h" version="15.8.2" type="github">
+  <diagram id="QSRsxWXxhsc_a-w8U61n" name="Page-1">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n3iYoXUrXfoh5oVP88JH-67" value="飞猪" style="swimlane;startSize=20;" parent="1" vertex="1">
+          <mxGeometry x="180" y="40" width="230" height="630" as="geometry">
+            <mxRectangle x="150" y="160" width="60" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFdJ3O3tLSj3Cj9c6ut8-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="n3iYoXUrXfoh5oVP88JH-67">
+          <mxGeometry x="100" y="20" width="10" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="wFdJ3O3tLSj3Cj9c6ut8-29" value="open/exchange/refund发起申请" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="n3iYoXUrXfoh5oVP88JH-67">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="70" as="sourcePoint" />
+            <mxPoint x="340" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFdJ3O3tLSj3Cj9c6ut8-47" value="人工通知飞猪需要退款的订单号" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="n3iYoXUrXfoh5oVP88JH-67" source="wFdJ3O3tLSj3Cj9c6ut8-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="390" as="sourcePoint" />
+            <mxPoint x="120" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFdJ3O3tLSj3Cj9c6ut8-48" value="飞猪退款并同步订单状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=-0.16;entryY=0.704;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="n3iYoXUrXfoh5oVP88JH-67" target="wFdJ3O3tLSj3Cj9c6ut8-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="447" as="targetPoint" />
+            <mxPoint x="120" y="447" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n3iYoXUrXfoh5oVP88JH-68" value="辅营后台" style="swimlane;startSize=20;" parent="1" vertex="1">
+          <mxGeometry x="410" y="40" width="250" height="630" as="geometry">
+            <mxRectangle x="270" y="160" width="60" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFdJ3O3tLSj3Cj9c6ut8-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="n3iYoXUrXfoh5oVP88JH-68">
+          <mxGeometry x="120" y="20" width="10" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="wFdJ3O3tLSj3Cj9c6ut8-44" value="辅营后台点人工退款" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="n3iYoXUrXfoh5oVP88JH-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="132" y="283" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="162" y="283" />
+            </Array>
+            <mxPoint x="137" y="303" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFdJ3O3tLSj3Cj9c6ut8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wFdJ3O3tLSj3Cj9c6ut8-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFdJ3O3tLSj3Cj9c6ut8-15" value="正常申请退款流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5" y="70" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wFdJ3O3tLSj3Cj9c6ut8-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="168" as="targetPoint" />
+            <mxPoint x="530" y="168" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFdJ3O3tLSj3Cj9c6ut8-36" value="退票并返回订单状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wFdJ3O3tLSj3Cj9c6ut8-35">
+          <mxGeometry x="-0.28" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFdJ3O3tLSj3Cj9c6ut8-37" value="退款并同步订单状态" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="311" y="235" as="sourcePoint" />
+            <mxPoint x="531" y="235.10000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFdJ3O3tLSj3Cj9c6ut8-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wFdJ3O3tLSj3Cj9c6ut8-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFdJ3O3tLSj3Cj9c6ut8-40" value="特殊退款流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="300" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wFdJ3O3tLSj3Cj9c6ut8-45" value="一定不要点一审二审" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="542" y="376" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="572" y="376" />
+            </Array>
+            <mxPoint x="547" y="396" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
